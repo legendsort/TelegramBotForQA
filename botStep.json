@@ -1,0 +1,308 @@
+{
+    "Language Option": [{
+        "type": "InlineButton",
+        "text": "Please choose your preferred language:",
+        "option": [
+            "I) Malay",
+            "II) English"
+        ],
+        "action": [
+            "Activity Selection",
+            "Activity Selection"
+        ]
+    }],
+    "Activity Selection": [
+        {
+            "type": "InlineButton",
+            "text": "Sila Pilih Aktiviti",
+            "option": [
+                "1. Pengambilan",
+                "2. Promosi",
+                "3. Kebajikan Pelajar"
+            ],
+            "action": [
+                "Sub Activity Selection",
+                "Main Menu",
+                "Main Menu"
+            ]
+        },
+        {
+            "type": "InlineButton",
+            "text": "Choose Activity",
+            "option": [
+                "1. Intake",
+                "2. Promotion",
+                "3. Student Welfare"
+            ],
+            "action": [
+                "Sub Activity Selection",
+                "Main Menu",
+                "Main Menu"
+            ]
+        }
+    ],
+    "Sub Activity Selection": [
+        {
+            "type": "InlineButton",
+            "text": "Sila Pilih Sub Aktiviti",
+            "option": [
+                "4. Pengiklanan",
+                "5. Permohonan",
+                "6. Penempatan"
+            ],
+            "action": [
+                "Main Menu",
+                "Main Menu",
+                "Main Menu"
+            ]
+            
+        },
+        {
+            "type": "InlineButton",
+            "text": "Please Select Sub Activity",
+            "option": [
+                "4. Advertising",
+                "5. Application",
+                "6. Placement"
+            ],
+            "action": [
+                "Main Menu",
+                "Main Menu",
+                "Main Menu"
+            ]
+            
+        }
+    ],
+    "Main Menu": [
+        {
+            "type": "InlineButton",
+            "text": "Sila Pilih Maklumat Yang Diperlukan",
+            "multi": "True",
+            "option": [
+                ["1. Personel",
+                "2. Prosedur Kerja"],
+                ["3. Dokumen",
+                "4. Sistem"]
+            ]
+        },
+        {
+            "type": "InlineButton",
+            "text": "Please Select the Required Information",
+            "multi": "True",
+            "option": [
+                ["1. Personnel",
+                "2. Work Procedures"],
+                ["3. Documents",
+                "4. System"]
+            ]
+        }
+    ],
+    "Option 2-1": [
+        {
+            "type": "text",
+            "text": "Personel Bagi Aktiviti Promosi\n\nNama: Pegawai A"
+        },
+        {
+            "type": "text",
+            "text": "Personnel for Promotional Activities\n\nName: Officer A"            
+        }
+    ],
+    "Option 3-1": [
+        {
+            "type": "text",
+            "text": "Personel Bagi Aktiviti Kebajikan Pelajar\n\nNama: Pegawai B"
+        },
+        {
+            "type": "text",
+            "text": "Personnel for Student Welfare Activities\n\nName: Officer B"            
+        }
+    ],
+    "Option 4-1": [
+        {
+            "type": "text",
+            "text": "Personel Bagi Aktiviti Pengiklanan\n\nNama: Pegawai C"
+        },
+        {
+            "type": "text",
+            "text": "Personnel for Advertising Activities\n\nName: Officer C"            
+        }
+    ],
+    "Option 5-1": [
+        {
+            "type": "text",
+            "text": "Personel Bagi Aktiviti Permohonan\n\nNama: Pegawai D"
+        },
+        {
+            "type": "text",
+            "text": "Personnel for Application Activities\n\nName: Officer D"            
+        }
+    ],
+    "Option 6-1": [
+        {
+            "type": "text",
+            "text": "Personel Bagi Aktiviti Penempatan\n\nNama: Pegawai E"
+        },
+        {
+            "type": "text",
+            "text": "Personnel for Placement Activities\n\nName: Officer E"            
+        }
+    ],
+    "Option 2-2": [
+        {
+            "type": "text",
+            "text": "Personel Kerja Bagi Aktiviti Promosi\n\nLangkah 1\nLangkah 2\nLangkah 3"
+        },
+        {
+            "type": "text",
+            "text": "Working Procedures for Promotional Activities\n\nStep 1\nStep 2\nStep 3"            
+        }
+    ],
+    "Option 3-2": [
+        {
+            "type": "text",
+            "text": "Personel Kerja Bagi Aktiviti Kebajikan Kebajikan Pelajar\n\nLangkah 1\nLangkah 2\nLangkah 3"
+        },
+        {
+            "type": "text",
+            "text": "Working Procedures for Student Welfare Activities\n\nStep 1\nStep 2\nStep 3"            
+        }
+    ],
+    "Option 4-2": [
+        {
+            "type": "text",
+            "text": "Personel KerjaBagi Aktiviti Pengiklanan\n\nLangkah 1\nLangkah 2\nLangkah 3"
+        },
+        {
+            "type": "text",
+            "text": "Working Procedures for Advertising Activities\n\nStep 1\nStep 2\nStep 3"            
+        }
+    ],
+    "Option 5-2": [
+        {
+            "type": "text",
+            "text": "Personel Kerja Bagi Aktiviti Permohonan\n\nLangkah 1\nLangkah 2\nLangkah 3"
+        },
+        {
+            "type": "text",
+            "text": "Working Procedures for Application Activities\n\nStep 1\nStep 2\nStep 3"            
+        }
+    ],
+    "Option 6-2": [
+        {
+            "type": "text",
+            "text": "Personel Kerja Bagi Aktiviti Penempatan\n\nLangkah 1\nLangkah 2\nLangkah 3"
+        },
+        {
+            "type": "text",
+            "text": "Working Procedures for Placement Activities\n\nStep 1\nStep 2\nStep 3"            
+        }
+    ],
+    "Option 2-3": [
+        {
+            "type": "text",
+            "text": "Dokumen Bagi Aktiviti Promosi\n\nDokumen 1\nDokumen 2"
+        },
+        {
+            "type": "text",
+            "text": "Documents for Promotional Activities\n\nDocument 1\nDocument 2"            
+        }
+    ],
+    "Option 3-3": [
+        {
+            "type": "text",
+            "text": "Dokumen Bagi Aktiviti Kebajikan Pelajar\n\nDokumen 1\nDokumen 2"
+        },
+        {
+            "type": "text",
+            "text": "Documents for Student Welfare Activities\n\nDocument 1\nDocument 2"            
+        }
+    ],
+    "Option 4-3": [
+        {
+            "type": "text",
+            "text": "Dokumen Bagi Aktiviti Pengiklanan\n\nDokumen 1\nDokumen 2"
+        },
+        {
+            "type": "text",
+            "text": "Documents for Advertising Activities\n\nDocument 1\nDocument 2"            
+        }
+    ],
+    "Option 5-3": [
+        {
+            "type": "text",
+            "text": "Dokumen Bagi Aktiviti Permohonan\n\nDokumen 1\nDokumen 2"
+        },
+        {
+            "type": "text",
+            "text": "Documents for Application Activities\n\nDocument 1\nDocument 2"            
+        }
+    ],
+    "Option 6-3": [
+        {
+            "type": "text",
+            "text": "Dokumen Bagi Aktiviti Penempatan\n\nDokumen 1\nDokumen 2"
+        },
+        {
+            "type": "text",
+            "text": "Documents for Placement Activities\n\nDocument 1\nDocument 2"            
+        }
+    ],
+    "Option 2-4": [
+        {
+            "type": "text",
+            "text": "Sistem Bagi Aktiviti Promos\n\nSistem 1"
+        },
+        {
+            "type": "text",
+            "text": "System for Promotional Activities\n\nSystem 1"            
+        }
+    ],
+    "Option 3-4": [
+        {
+            "type": "text",
+            "text": "Sistem Bagi Aktiviti Kebajikan Pelajar\n\nSistem 1"
+        },
+        {
+            "type": "text",
+            "text": "System for Student Welfare Activities\n\nSystem 1"            
+        }
+
+    ],
+    "Option 4-4": [
+        {
+            "type": "text",
+            "text": "Sistem Bagi Aktiviti Pengiklanan\n\nSistem 1"
+        },
+        {
+            "type": "text",
+            "text": "System for Promotional Activities\n\nSystem 1"            
+        }
+
+    ],
+    "Option 5-4": [
+        {
+            "type": "text",
+            "text": "Sistem Bagi Aktiviti Permohonan\n\nSistem 1"
+        },
+        {
+            "type": "text",
+            "text": "System for Advertising Activities\n\nSystem 1"            
+        }
+
+    ],
+    "Option 6-4": [
+        {
+            "type": "text",
+            "text": "Sistem Bagi Aktiviti Penempatan\n\nSistem 1"
+        },
+        {
+            "type": "text",
+            "text": "System for Placement Activities\n\nSystem 1"            
+        }
+
+    ]
+
+    
+
+          
+}
