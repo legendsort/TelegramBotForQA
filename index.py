@@ -15,21 +15,15 @@ with open("./botStep.json", "r") as file:
   botStep = json.load(file)
 
 def parse_message(message):
-    print("======================>", message)
     try:
         if 'message' in message:
             chat_id = message['message']['chat']['id']
             txt = message['message']['text']
-            print("chat_id-->", chat_id)
-            print("txt-->", txt)
             return chat_id,txt,""
         elif 'callback_query' in message:
             chat_id = message['callback_query']['message']['chat']['id']
             txt = message['callback_query']['data']
             quiz = message['callback_query']['message']['text']
-            print("chat_id-->", chat_id)
-            print("txt-->", txt)
-            print("quiz-->", quiz)
             
             return chat_id,txt,quiz
         return -1, -1, -1
@@ -79,13 +73,11 @@ def arrayToMarkup(arr, multi):
             ans.append(temp)
         pass
     if multi == False: ans = [ans]
-    print(ans)
     return ans
 
 
 def inlineButton(chatID, item):
     option = item['option']
-    print(item, 'multi' in item)
     markUp = arrayToMarkup(option, True if 'multi' in item else False)
     tel_send_inlinebutton(chatID, item['text'], markUp)
     return ""
@@ -105,10 +97,6 @@ def index():
         chat_id, txt, quiz = parse_message(msg)
         if chat_id == -1:
             return Response('bad', status=200)
-        print("------>", chat_id, txt, quiz)
-        print('language: ', language)
-        print('activity: ', activity)
-        print('menu: ', menu)
         item = {}
         if txt == '/start':
             item = botStep["Language Option"][language]
@@ -132,7 +120,6 @@ def index():
             key = "Option %s-%s" % (activity + 1, menu+1)
             item = botStep[key][language]
         
-
         if 'type' not in item:
             tel_send_message(chat_id, 'Wrong Command')
             return Response('bad', status=200)
@@ -142,8 +129,7 @@ def index():
         if item['type'] == 'text':
             sendMessage(chat_id, item)
 
-
         return Response('ok', status=200)
  
 if __name__ == '__main__':
-   app.run(debug=True)
+   app.run()

@@ -3,9 +3,10 @@
         "type": "InlineButton",
         "text": "Please choose your preferred language:",
         "option": [
-            "I) Malay",
-            "II) English"
+            ["I) Malay"],
+            ["II) English"]
         ],
+        "multi": "True",
         "action": [
             "Activity Selection",
             "Activity Selection"
@@ -14,11 +15,12 @@
     "Activity Selection": [
         {
             "type": "InlineButton",
-            "text": "Sila Pilih Aktiviti",
+            "text": "Sila Pilih Aktiviti                                    ",
+            "multi": "True",
             "option": [
-                "1. Pengambilan",
-                "2. Promosi",
-                "3. Kebajikan Pelajar"
+                ["1. Pengambilan"],
+                ["2. Promosi"],
+                ["3. Kebajikan Pelajar"]
             ],
             "action": [
                 "Sub Activity Selection",
@@ -28,11 +30,12 @@
         },
         {
             "type": "InlineButton",
+            "multi": "True",
             "text": "Choose Activity",
             "option": [
-                "1. Intake",
-                "2. Promotion",
-                "3. Student Welfare"
+                ["1. Intake"],
+                ["2. Promotion"],
+                ["3. Student Welfare"]
             ],
             "action": [
                 "Sub Activity Selection",
@@ -46,10 +49,11 @@
             "type": "InlineButton",
             "text": "Sila Pilih Sub Aktiviti",
             "option": [
-                "4. Pengiklanan",
-                "5. Permohonan",
-                "6. Penempatan"
+                ["4. Pengiklanan"],
+                ["5. Permohonan"],
+                ["6. Penempatan"]
             ],
+            "multi": "True",
             "action": [
                 "Main Menu",
                 "Main Menu",
@@ -60,10 +64,11 @@
         {
             "type": "InlineButton",
             "text": "Please Select Sub Activity",
+            "multi": "True",
             "option": [
-                "4. Advertising",
-                "5. Application",
-                "6. Placement"
+                ["4. Advertising"],
+                ["5. Application"],
+                ["6. Placement"]
             ],
             "action": [
                 "Main Menu",
@@ -79,10 +84,10 @@
             "text": "Sila Pilih Maklumat Yang Diperlukan",
             "multi": "True",
             "option": [
-                ["1. Personel",
-                "2. Prosedur Kerja"],
-                ["3. Dokumen",
-                "4. Sistem"]
+                ["1. Personel"],
+                ["2. Prosedur Kerja"],
+                ["3. Dokumen"],
+                ["4. Sistem"]
             ]
         },
         {
@@ -90,10 +95,10 @@
             "text": "Please Select the Required Information",
             "multi": "True",
             "option": [
-                ["1. Personnel",
-                "2. Work Procedures"],
-                ["3. Documents",
-                "4. System"]
+                ["1. Personnel"],
+                ["2. Work Procedures"],
+                ["3. Documents"],
+                ["4. System"]
             ]
         }
     ],
