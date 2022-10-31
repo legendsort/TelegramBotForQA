@@ -11,8 +11,11 @@ language = 0
 
 app = Flask(__name__)
 
+with open("./env", "r") as file:
+    TOKEN = json.load(file)
+    
 with open("./botStep.json", "r") as file:
-  botStep = json.load(file)
+    botStep = json.load(file)
 
 def parse_message(message):
     try:
@@ -132,4 +135,5 @@ def index():
         return Response('ok', status=200)
  
 if __name__ == '__main__':
-   app.run()
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=5000)
