@@ -35,7 +35,7 @@ def parse_message(message):
         return -1, -1, -1
 
 def tel_send_message(chat_id, text):
-    url = f'https://api.telegram.org/bot{TOKEN}/sendMessage'
+    url = 'https://api.telegram.org/bot5773306905:AAFmcc0xlg5B6Sut6lAM39LF6J5uhYZhA5U/sendMessage'
     payload = {
         'chat_id': chat_id,
         'text': text
@@ -44,7 +44,7 @@ def tel_send_message(chat_id, text):
     return r
 
 def tel_send_inlinebutton(chat_id, text, options):
-    url = f'https://api.telegram.org/bot{TOKEN}/sendMessage'
+    url = 'https://api.telegram.org/bot5773306905:AAFmcc0xlg5B6Sut6lAM39LF6J5uhYZhA5U/sendMessage'
     payload = {
         'chat_id': chat_id,
         'text': text,
